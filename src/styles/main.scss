@@ -1,0 +1,88 @@
+@import '~scss_vars';
+
+.queryForm {
+	background-color: $color-extra-light-gray;
+	padding-top: 16px;
+	margin-bottom: 8px;
+
+	.el-form--inline .el-form-item {
+		margin-bottom: 16px;
+	}
+
+	.el-input,
+	.el-select {
+		width: 300px;
+	}
+}
+
+.el-table {
+	margin-top: 8px;
+}
+
+.paginationSection {
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.el-select,
+.el-input,
+.el-input-number {
+	width: 100%;
+	input {
+		border-radius: $radius-px;
+	}
+}
+
+.el-textarea {
+	textarea {
+		border-radius: $radius-px;
+	}
+}
+.el-button {
+		border-radius: $radius-px;
+}
+.el-checkbox {
+	span {
+		border-radius: $radius-px;
+	}
+}
+.el-menu{
+	border-radius: $radius-px;
+}
+.el-tag{
+	border-radius: $radius-px;
+}
+.icon-add {
+    color: limegreen;
+    padding: 1px
+}
+
+.icon-del {
+    color: red;
+    padding: 1px
+}
+
+.icon-up {
+    color: deepskyblue;
+    padding: 1px
+}
+
+.icon-down {
+    color: deepskyblue;
+    padding: 1px
+}
+
+
+.hiveQueryTab {
+	.el-tabs__content {
+		padding: 0px
+	}
+}
+
+.line-row{
+    position:absolute;
+    left:30%;
+    top:0;
+    width: 70%;
+}
